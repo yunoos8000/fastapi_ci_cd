@@ -21,7 +21,7 @@ class ModelName(str, Enum):
 
 @app.get("/")
 def root():
-    return 6
+    return 9
 
 
 @app.post("/items")
